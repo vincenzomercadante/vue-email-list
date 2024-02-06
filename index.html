@@ -49,8 +49,8 @@
     <!-- vue app container -->
     <div id="app">
       <div class="container">
-        <div class="row">
-          <div class="col-6" v-for="(mail) in mails" v-if="mails.length==10">
+        <div class="row" v-if="mails.length==10">
+          <div class="col-6" v-for="(mail) in mails">
             <h2>{{mail}}</h2>
           </div>
         </div>
