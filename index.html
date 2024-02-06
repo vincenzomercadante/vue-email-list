@@ -48,9 +48,10 @@
   <body>
     <!-- vue app container -->
     <div id="app">
+      <h1>Mail Generator</h1>
       <div class="container">
         <div class="row" v-if="mails.length==10">
-          <div class="col-6" v-for="(mail) in mails">
+          <div class="col-6 text-center" v-for="(mail) in mails">
             <h2>{{mail}}</h2>
           </div>
         </div>
