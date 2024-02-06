@@ -10,6 +10,7 @@ const app = createApp({
   },
 
   methods: {
+    // pushing in array of mails recovered from API
     requestMail() {
       for (let i = 0; i < 10; i++) {
         axios
